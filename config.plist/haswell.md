@@ -185,7 +185,7 @@ Fun Fact: The reason the byte order is swapped is due to [Endianness](https://en
 * **CustomSMBIOSGuid**: NO 
   * Performs GUID patching for UpdateSMBIOSMode Custom mode. Usually relevant for Dell laptops
 * **DisableIOMapper**: YES 
-  * Needed to get around VT-D if  either unable to disable in BIOS or needed for other operating systems, musch better alternative to `dart=0` as SIP can stay on in Catalina
+  * Needed to get around VT-D if  either unable to disable in BIOS or needed for other operating systems, much better alternative to `dart=0` as SIP can stay on in Catalina
 * **ExternalDiskIcons**: YES 
   * External Icons Patch, for when internal drives are treated as external drives but can also make USB drives internal. For NVMe on Z87 and below you just add built-in property via DeviceProperties.
 * **LapicKernelPanic**: NO 
